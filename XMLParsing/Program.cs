@@ -22,13 +22,13 @@ Library library = new Library(fileXmlSource, bookConstructor, memberConstructor)
 logger.Log("Welcome to Library!");
 
 
-logger.Log($"\nTotal number of chapters: {library.TotalNumberOfChapters()}");
+// logger.Log($"\nTotal number of chapters: {library.TotalNumberOfChapters()}");
 
 logger.Log($"\nBorrowed books id: ");
-library.BorrowedBooksId().ForEach(id => logger.Log(id.ToString()));
+// library.BorrowedBooksId().ForEach(id => logger.Log(id.ToString()));
 
 logger.Log($"\nAll books sorted by genre: ");
-library.BooksSortedByGenre().ForEach(book => logger.Log(book.ToString()));
+// library.BooksSortedByGenre().ForEach(book => logger.Log(book.ToString()));
 
 
 
